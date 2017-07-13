@@ -47,7 +47,7 @@ color: seashell;
 /* CSS for the container (content)*/
 main{
 width: 100%;
-height: 700px;
+height: auto;
 position: relative;
 margin-top: 70px;
 /*border: 2px solid red;*/
@@ -140,6 +140,22 @@ text-align: center;
 padding: 20px 20px;
 }
 footer{
+/*border: 2px solid yellow;*/
 height: 200px;
+width: 100%;
+margin: auto;
 margin-right: 20px;
+display: flex;
+flex-direction: column;
+}
+.footer_text{
+text-align: center;
+height: 200px;
+}
+.footer_text > p {
+font-weight: bold;
+}
+.copyR{
+margin: 10px 20px;
+text-align: left;
 }
