@@ -35,9 +35,13 @@ z-index: 5;
 padding-top: 20px;
 z-index: 5;
 }
-#menu > span{
+#menu > span a{
 padding-right: 20px;
+color: seashell;
 text-decoration: underline;
+}
+#menu > span a:visited{
+color: seashell;
 }
 
 /* CSS for the container (content)*/
@@ -48,7 +52,7 @@ position: relative;
 margin-top: 70px;
 /*border: 2px solid red;*/
 }
-.OurMission{
+#OurMission{
 width: 1200px;
 height: 700px;
 margin: auto;
@@ -70,25 +74,26 @@ padding: 1px 0;
 }
 
 /*CSS for Tea Month section*/
-.TeaMonth{
+#TeaMonth{
 /*border: 2px solid purple;*/
 width: 1000px;
 height: auto;
-margin: 300px auto;
+margin: auto;
+margin-top: 300px;
 position: relative;
 text-align: center;
 display: flex;
 flex-direction: column;
 }
-.TeaMonth > div:nth-child(1),
-.TeaMonth > div:nth-child(2){
+#TeaMonth > div:nth-child(1),
+#TeaMonth > div:nth-child(2){
 font-weight: bold;
 margin-bottom: 20px;
 }
 p > img{
 width: 300px;
 height: 200px;
-margin-bottom: 20px;
+margin-bottom: 10px;
 }
 p > span{
 font-weight: bold;
@@ -103,8 +108,38 @@ justify-content: center;
 margin-right: 30px;
 }
 
-/* CSS for locations section
+/* CSS for locations section*/
 #locations{
+width: 1200px;
 height: 500px;
-background-image: url(../images/img-locations-background.jpg)
-}*/
+margin: 70px auto 50px;
+background-image: url(../images/img-locations-background.jpg);
+display: flex;
+flex-direction: column;
+}
+#locations p{
+  font-weight: bold;
+  margin: auto;
+}
+.box{
+margin: auto;
+margin-top: -20px;
+display: flex;
+flex-direcrion: row;
+}
+.blackBox{
+/*border: 2px solid #829FA0;*/
+width: 300px;
+height: 300px;
+background-color: black;
+margin-right: 40px;
+opacity: 1;
+}
+.blackBox p{
+text-align: center;
+padding: 20px 20px;
+}
+footer{
+height: 200px;
+margin-right: 20px;
+}
