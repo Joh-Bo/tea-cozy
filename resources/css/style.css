@@ -26,9 +26,15 @@ justify-content: space-between;
 }
 #logo{
 /*border: 2px solid blue;*/
+/*background-image: url(../images/img-tea-cozy-logo.png);*/
 margin-left: 10px;
-padding-top: 20px;
-z-index: 5;
+padding-top: 10px;
+/*z-index: 5;*/
+}
+#logo img{
+width: auto;
+height: 50px;
+
 }
 #menu{
 /*border: 2px solid red;*/
