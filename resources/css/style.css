@@ -92,6 +92,9 @@ flex-direction: column;
 font-weight: bold;
 margin-bottom: 20px;
 }
+#TeaMonth > div:nth-child(1){
+font-size: 32px;
+}
 p > img{
 width: 300px;
 height: 200px;
@@ -121,6 +124,10 @@ flex-direction: column;
 }
 #locations p{
 margin: auto;
+}
+#locations p:nth-child(1){
+font-size: 32px;
+font-weight: bold;
 }
 .box{
 margin: auto;
