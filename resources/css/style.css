@@ -12,8 +12,9 @@ opacity: 0.9;
 display: flex;
 flex-direction: column;
 }
+
+/* CSS for the header */
 header{
-/*border: 2px solid pink;*/
 width: 100%;
 height: 69px;
 position: fixed;
@@ -25,19 +26,14 @@ flex-direction: row;
 justify-content: space-between;
 }
 #logo{
-/*border: 2px solid blue;*/
-/*background-image: url(../images/img-tea-cozy-logo.png);*/
 margin-left: 10px;
 padding-top: 10px;
-/*z-index: 5;*/
 }
 #logo img{
 width: auto;
 height: 50px;
-
 }
 #menu{
-/*border: 2px solid red;*/
 padding-top: 20px;
 z-index: 5;
 }
@@ -50,14 +46,15 @@ text-decoration: underline;
 color: seashell;
 }
 
-/* CSS for the container (content)*/
+/* CSS for the main section */
 main{
 width: 100%;
 height: auto;
 position: relative;
 margin-top: 70px;
-/*border: 2px solid red;*/
 }
+
+/* CSS for the Our Mission section*/
 #OurMission{
 width: 1200px;
 height: 700px;
@@ -65,7 +62,6 @@ margin: auto;
 background-image: url(../images/img-mission-background.jpg);
 }
 #text{
-/*border: 2px solid green;*/
 width: 1200px;
 height: 120px;
 margin: auto;
@@ -81,11 +77,11 @@ padding: 1px 0;
 
 /*CSS for Tea Month section*/
 #TeaMonth{
-/*border: 2px solid purple;*/
 width: 1000px;
 height: auto;
 margin: auto;
 margin-top: 300px;
+margin-bottom: 50px;
 position: relative;
 text-align: center;
 display: flex;
@@ -118,14 +114,13 @@ margin-right: 30px;
 #locations{
 width: 1200px;
 height: 500px;
-margin: 70px auto 50px;
+margin: auto;
 background-image: url(../images/img-locations-background.jpg);
 display: flex;
 flex-direction: column;
 }
 #locations p{
-  font-weight: bold;
-  margin: auto;
+margin: auto;
 }
 .box{
 margin: auto;
@@ -134,19 +129,21 @@ display: flex;
 flex-direcrion: row;
 }
 .blackBox{
-/*border: 2px solid #829FA0;*/
 width: 300px;
 height: 300px;
 background-color: black;
 margin-right: 40px;
 opacity: 1;
 }
-.blackBox p{
+.blackBox p,
+.blackBox h3{
 text-align: center;
-padding: 20px 20px;
+padding: 12px 20px;
+margin-bottom: 10px;
 }
+
+/* CSS for the footer */
 footer{
-/*border: 2px solid yellow;*/
 height: 200px;
 width: 100%;
 margin: auto;
@@ -157,11 +154,9 @@ flex-direction: column;
 .footer_text{
 text-align: center;
 height: 200px;
-}
-.footer_text > p {
 font-weight: bold;
 }
 .copyR{
-margin: 10px 20px;
+margin: 20px;
 text-align: left;
 }
