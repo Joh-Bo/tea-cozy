@@ -89,7 +89,6 @@ flex-direction: column;
 }
 #TeaMonth > div:nth-child(1),
 #TeaMonth > div:nth-child(2){
-font-weight: bold;
 margin-bottom: 20px;
 }
 #TeaMonth > div:nth-child(1){
@@ -99,9 +98,6 @@ p > img{
 width: 300px;
 height: 200px;
 margin-bottom: 10px;
-}
-p > span{
-font-weight: bold;
 }
 .tea{
 display: flex;
@@ -127,13 +123,12 @@ margin: auto;
 }
 #locations p:nth-child(1){
 font-size: 32px;
-font-weight: bold;
 }
 .box{
 margin: auto;
 margin-top: -20px;
 display: flex;
-flex-direcrion: row;
+flex-direction: row;
 }
 .blackBox{
 width: 300px;
@@ -161,10 +156,15 @@ flex-direction: column;
 .footer_text{
 text-align: center;
 height: 200px;
-font-weight: bold;
 }
 .copyR{
 margin: 20px;
-font-weight: bold;
 text-align: left;
+}
+#TeaMonth > div:nth-child(1),
+#TeaMonth > div:nth-child(2),
+p > span, #locations p:nth-child(1),
+.footer_text,
+.copyR{
+font-weight: bold;
 }
